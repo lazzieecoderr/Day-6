@@ -1,0 +1,47 @@
+Contents:
+Understanding the basics of prototype
+What is classes in js?
+constructor
+need of setters/getters
+use of this key word in classes
+
+OOPS:- Object Oriented Programming
+=> Javascript has inherited some features from Java
+=> oops is the main pillar of Java
+
+Encapsulation:-
+=> Hiding the implementation details.
+=>In which one thing is included with other thing so that inclusive things will not appear.
+=>example:- whatsapp
+
+Polymorphism :-
+=> A way to achieve a single action in different ways.
+=> Example: Myself
+
+Inheritance :- 
+=> parent-child relationship.In which a class takes all the characteristics of parent class
+=> child => Inherits => parent
+=> example :- gene,dna
+
+classes and objects:- 
+=> it is a collection of methods , properties and objects.
+=> class is defined by using class keyword
+syntax:- 
+class ClassName {
+    //properties
+    //methods
+    //objects
+}
+example:-
+class Movie {
+    // title ,studio ,rating
+}
+=> Objects:- It is called as the real time entity. (touch and feel)
+=> Objects are specific to the class
+syntax:- 
+var/let/const objectname = new ClassName();
+
+new => new is a keyword used to create an instance of a class.
+
+=>constructors:- To store the values inside the object. It is automatically called when class is created.
+=>this:- It is the temporary keyword which is pointed to the newly/freshly/recently created objects.
